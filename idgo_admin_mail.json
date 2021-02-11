@@ -1,0 +1,289 @@
+[
+{
+	"model": "idgo_admin.mail",
+	"pk": "account_activated",
+	"fields":
+	{
+		"subject": "Bienvenue sur la plateforme DataSud",
+		"message": "Bonjour {full_name} ({username}),\r\n\r\nC'est fait ! F\u00e9licitations, nous confirmons votre inscription sur la plateforme DataSud.\r\n\r\nQuelques liens rapides :\r\n\r\n- Trouver des donn\u00e9es : https://trouver.datasud.fr/dataset\r\n- Publier des donn\u00e9es : https://publier.datasud.fr\r\n\r\n- D\u00e9couvrir des r\u00e9utilisations : https://trouver.datasud.fr/showcase\r\n- D\u00e9couvrir les organisations : https://trouver.datasud.fr/organization\r\n- Rejoindre la communaut\u00e9 : https://datasud.slack.com\r\n\r\nConcernant la description de vos jeux de donn\u00e9es, le renseignement des diff\u00e9rents champs, ou encore les fonctionnalit\u00e9s et les r\u00e8gles \u00e9ditoriales de Datasud, n'oubliez pas de consulter notre documentation :\r\n\r\nhttps://datasud.readthedocs.io/fr/latest/\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "account_creation_by_admin",
+	"fields":
+	{
+		"subject": "Un nouveau compte vous a \u00e9t\u00e9 cr\u00e9e sur la plateforme Datasud",
+		"message": "Bonjour,\n\nUn compte vous a \u00e9t\u00e9 cr\u00e9\u00e9 sur la plateforme Datasud par les services d'administration.\n\nVoici votre identifiant de connexion : {username}.\n\nPour initialiser votre compte, veuillez cliquer sur le lien ci-dessous :\n\n{url}\n\n\n--\nCe message est envoy\u00e9 automatiquement. Veuillez ne pas r\u00e9pondre. "
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "account_deleted",
+	"fields":
+	{
+		"subject": "Confirmation de la suppression de votre compte de la plateforme Datasud",
+		"message": "Bonjour {full_name} ({username}),\n\nNous confirmons la suppression de votre compte de la plateforme Datasud.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "ask_for_crige_partnership",
+	"fields":
+	{
+		"subject": "Demande de partenariat CRIGE",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({user_email}), r\u00e9f\u00e9rent de l'organisation {organisation} ({organisation_pk}), demande un partenariat.\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "ask_for_jurisdiction_attachment",
+	"fields":
+	{
+		"subject": "Demande de rattachement \u00e0 un territoire de comp\u00e9tence",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({user_email}) demande \u00e0 rattacher le territoire de comp\u00e9tence {jurisdiction} ({jurisdiction_pk}) \u00e0 l'organisation {organisation} ({organisation_pk}).\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "ask_for_jurisdiction_attachment_copy_to_user",
+	"fields":
+	{
+		"subject": "Demande de rattachement \u00e0 un territoire de comp\u00e9tence",
+		"message": "Bonjour,\n\nVous avez demand\u00e9 le rattachement de l'organisation {organisation} au territoire de comp\u00e9tence : {jurisdiction} ({jurisdiction_pk})\n\n\nCette demande sera trait\u00e9e dans les 24h par un administrateur.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "ask_for_jurisdiction_creation",
+	"fields":
+	{
+		"subject": "Demande de cr\u00e9ation d'un territoire de comp\u00e9tence",
+		"message": "Bonjour,\r\n\r\nL'utilisateur {full_name} ({user_email}) demande la cr\u00e9ation d'un nouveau territoire de comp\u00e9tence :\r\n\r\n* Nom : {name}\r\n* Code : {code}\r\n* Codes INSEE des communes : {communes}\r\n* Organisation de rattachement : {organisation} (Code d'identification : {organisation_pk})\r\n\nVeuillez cliquer sur le lien suivant afin de d\u00e9finir le territoire de comp\u00e9tence avec les informations ci-avant : \n\n{url}\r\n\r\n\n--\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "ask_for_jurisdiction_creation_copy_to_user",
+	"fields":
+	{
+		"subject": "Demande de cr\u00e9ation d'un territoire de comp\u00e9tence",
+		"message": "Bonjour,\r\n\r\nL'utilisateur {full_name} ({user_email}) demande la cr\u00e9ation d'un nouveau territoire de comp\u00e9tence :\r\n\r\n* Nom : {name}\r\n* Code : {code}\r\n* Codes INSEE des communes : {communes}\r\n* Organisation de rattachement : {organisation} (Code d'identification : {organisation_pk})\r\n\r\nCette demande sera trait\u00e9e dans les 24h par un administrateur du CRIGE. En cas de probl\u00e8me, contactez le support du CRIGE : support.technique@crige-paca.org\r\n\r\nLa cr\u00e9ation de ce territoire de comp\u00e9tences vous permet de b\u00e9n\u00e9ficier de fonctionnalit\u00e9s spatiales suppl\u00e9mentaires dans DATASUD.\r\n\r\nCordialement,\r\n--\r\nL'\u00e9quipe DATASUD du CRIGE Provence-Alpes-C\u00f4te d'Azur\r\nadmin.datasud@crige-paca.org\r\nTel : 04 42 90 71 22\r\nwww.crige-paca.org\r\n--\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "cadastre_no_habilitation",
+	"fields":
+	{
+		"subject": "Commande de fichiers fonciers : pas d'habilitation",
+		"message": "Bonjour,\n\nVous avez effectu\u00e9 une commande de fichiers foncier le {date} pour l'organisation {organisation}, mais vous n'\u00eates pas habilit\u00e9s \u00e0 t\u00e9l\u00e9charger les MAJICII. \n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "cadastre_order",
+	"fields":
+	{
+		"subject": "Confirmation d'envoi de commande de fichiers fonciers",
+		"message": "Bonjour {full_name},\n\nL'instruction de votre commande est en cours. Vous trouverez le r\u00e9capitulatif ci-dessous :\n\n* Nom : {last_name}\n* Pr\u00e9nom : {first_name}\n* Adresse e-mail : {email}\n* Date : {date}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "cadastre_wrong_file",
+	"fields":
+	{
+		"subject": "Commande de fichiers fonciers : documents invalides",
+		"message": "Bonjour,\n\nAu moins un des documents envoy\u00e9s lors de votre commande pour l'organisation {organisation} du {date} est invalide. \n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_account_creation",
+	"fields":
+	{
+		"subject": "Confirmer votre inscription sur la plateforme Datasud",
+		"message": "Bonjour {full_name} ({username}),\r\n\r\nMerci et bravo !  Votre inscription sur la plateforme Datasud est presque termin\u00e9e. Afin de valider cette derni\u00e8re, veuillez cliquer sur le lien suivant :\r\n\r\n{url}\r\n\r\nConcernant la description de vos jeux de donn\u00e9es, le renseignement des diff\u00e9rents champs, ou encore les fonctionnalit\u00e9s et les r\u00e8gles \u00e9ditoriales de Datasud, n'oubliez pas de consulter notre documentation :\r\n\r\nhttps://datasud.readthedocs.io/fr/latest/\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_cadastre_order",
+	"fields":
+	{
+		"subject": "Commande de fichiers fonciers",
+		"message": "Bonjour {full_name},\n\nL'instruction de votre commande est en cours. Vous trouverez le r\u00e9capitulatif ci-dessous :\n\n* Nom : {last_name}\n* Pr\u00e9nom : {first_name}\n* Adresse e-mail : {email}\n* Date : {date}\n\nPour valider la commande, suivez le lien suivant :\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_contributor_status",
+	"fields":
+	{
+		"subject": "Un utilisateur demande le statut de contributeur",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({username}, {email}) demande le statut de contributeur de l'organisation \u00ab {organisation} \u00bb ({website}).\n\nVeuillez cliquer sur le lien ci-dessous pour valider sa demande : \n\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_membership_status",
+	"fields":
+	{
+		"subject": "Un utilisateur demande le statut de membre",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({username}, {email}) demande le statut de membre de l'organisation \u00ab {organisation} \u00bb ({website}).\n\nVeuillez cliquer sur le lien ci-dessous pour valider sa demande : \n\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_organisation_creation",
+	"fields":
+	{
+		"subject": "Un utilisateur demande la cr\u00e9ation d'une nouvelle organisation",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({username}, {email}) demande la cr\u00e9ation d'une nouvelle organisation \u00ab {organisation} \u00bb ({website}).\n\nVeuillez cliquer sur le lien ci-dessous pour valider sa demande : \n\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "confirm_referent_status",
+	"fields":
+	{
+		"subject": "Un utilisateur demande le statut de r\u00e9f\u00e9rent",
+		"message": "Bonjour,\n\nL'utilisateur {full_name} ({username}, {email}) demande le statut de r\u00e9f\u00e9rent de l'organisation \u00ab {organisation} \u00bb ({website}).\n\nVeuillez cliquer sur le lien ci-dessous pour valider sa demande : \n\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "contacting_users",
+	"fields":
+	{
+		"subject": "<Sujet>",
+		"message": "<Corps du message>"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "contributor_status_confirmed",
+	"fields":
+	{
+		"subject": "Validation de votre demande de statut de contributeur",
+		"message": "Bonjour {full_name} ({username}),\n\nVotre demande de statut de contributeur pour l'organisation \u00ab {organisation} \u00bb a \u00e9t\u00e9 valid\u00e9e.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "data_extraction_failure",
+	"fields":
+	{
+		"subject": "\u00c9chec de l'extraction",
+		"message": "Bonjour {full_name} ({username}),\n\nL'extraction du jeu de donn\u00e9es \u00ab {title} \u00bb a \u00e9chou\u00e9e.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "data_extraction_successfully",
+	"fields":
+	{
+		"subject": "Lien de t\u00e9l\u00e9chargement",
+		"message": "Bonjour {full_name} ({username}),\n\nPour t\u00e9l\u00e9charger le jeu de donn\u00e9es \u00ab {title} \u00bb, veuillez cliquer sur le lien ci-dessous :\n\n{url}\n\nLe lien est disponible 15 jours.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "dataset_created",
+	"fields":
+	{
+		"subject": "Cr\u00e9ation d'un jeu de donn\u00e9es",
+		"message": "Bonjour,\r\n\r\nC'est fait ! Le jeu de donn\u00e9es \u00ab {dataset} \u00bb ({id}) a \u00e9t\u00e9 cr\u00e9\u00e9 avec succ\u00e8s par {full_name} ({username}) :\r\n\r\n{ckan_url}\r\n\r\nQue faire de plus ?\r\n\r\n- Am\u00e9liorer les metadonn\u00e9es : https://datasud.readthedocs.io/fr/latest/contributeurs.html \r\n- D\u00e9clarer des r\u00e9utilisations : https://trouver.datasud.fr/showcase\r\n- Rejoindre la communaut\u00e9 : https://datasud.slack.com\r\n\r\nMerci,\r\nL'\u00e9quipe DataSud\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "dataset_deleted",
+	"fields":
+	{
+		"subject": "Suppression d'un jeu de donn\u00e9es",
+		"message": "Bonjour,\r\n\r\nEt voil\u00e0 c'est fini ! Le jeu de donn\u00e9es \u00ab \u00ab {dataset} \u00bb ({id}) a \u00e9t\u00e9 supprim\u00e9 avec succ\u00e8s par {full_name} ({username}).\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "dataset_updated",
+	"fields":
+	{
+		"subject": "Mise \u00e0 jour d'un jeu de donn\u00e9es",
+		"message": "Bonjour,\r\n\r\nC'est fait ! Le jeu de donn\u00e9es \u00ab {dataset} \u00bb ({id}) a \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s par {full_name} ({username}) :\r\n\r\n{ckan_url}\r\n\r\nQue faire de plus ?\r\n\r\n- Am\u00e9liorer les metadonn\u00e9es : https://datasud.readthedocs.io/fr/latest/contributeurs.html \r\n- D\u00e9clarer des r\u00e9utilisations : https://trouver.datasud.fr/showcase\r\n- Rejoindre la communaut\u00e9 : https://datasud.slack.com\r\n\r\nMerci,\r\nL'\u00e9quipe DataSud\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "email_task",
+	"fields":
+	{
+		"subject": "Synchronisation des donn\u00e9es distantes",
+		"message": "Bonjour,\n\nCi-joint, la liste des t\u00e2ches effectu\u00e9es ce jour.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "inform_user_he_is_crige",
+	"fields":
+	{
+		"subject": "Vous \u00eates membre CRIGE",
+		"message": "Bonjour {full_name} ({username}),\n\nVous \u00eates membre CRIGE.\n\nVous avez d\u00e9sormais acc\u00e8s \u00e0 plusieurs fonctionnalit\u00e9s : extracteur de donn\u00e9es, etc.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\n"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "membership_status_confirmed",
+	"fields":
+	{
+		"subject": "Validation de votre demande de statut de membre",
+		"message": "Bonjour {full_name} ({username}),\n\nVotre demande de statut de membre de l'organisation \u00ab {organisation} \u00bb a \u00e9t\u00e9 valid\u00e9e.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "referent_status_confirmed",
+	"fields":
+	{
+		"subject": "Validation de votre demande de statut de r\u00e9f\u00e9rent",
+		"message": "Bonjour {full_name} ({username}),\n\nVotre demande de statut de r\u00e9f\u00e9rent pour l'organisation \u00ab {organisation} \u00bb a \u00e9t\u00e9 valid\u00e9e.\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "reset_password",
+	"fields":
+	{
+		"subject": "R\u00e9initialisation de votre mot de passe sur la plateforme Datasud",
+		"message": "Bonjour {full_name} ({username})\n\nVous avez demand\u00e9 la r\u00e9initialisation de mot de passe.\n\nSi vous \u00eates \u00e0 l'origine de cette demande, veuillez suivre ce lien :\n\n{url}\n\n\n--\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre."
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "resource_created",
+	"fields":
+	{
+		"subject": "Cr\u00e9ation d'une ressource",
+		"message": "Bonjour,\r\n\r\nLa ressource \u00ab {resource} \u00bb ({id}) a \u00e9t\u00e9 cr\u00e9\u00e9e avec succ\u00e8s  par {full_name} ({username}) :\r\n\r\n{ckan_url}\r\n\r\nQue faire de plus ?\r\n\r\n- Am\u00e9liorer les metadonn\u00e9es : https://datasud.readthedocs.io/fr/latest/contributeurs.html \r\n- D\u00e9clarer des r\u00e9utilisations : https://trouver.datasud.fr/showcase\r\n- Rejoindre la communaut\u00e9 : https://datasud.slack.com\r\n\r\nMerci,\r\nL'\u00e9quipe DataSud\r\n\r\n------- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "resource_deleted",
+	"fields":
+	{
+		"subject": "Suppression d'une ressource",
+		"message": "Bonjour,\r\n\r\nEt voil\u00e0 c'est fini ! La ressource \u00ab {resource} \u00bb ({id}) a \u00e9t\u00e9 supprim\u00e9e avec succ\u00e8s par {full_name} ({username}).\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+},
+{
+	"model": "idgo_admin.mail",
+	"pk": "resource_updated",
+	"fields":
+	{
+		"subject": "Mise \u00e0 jour d'une ressource",
+		"message": "Bonjour,\r\n\r\nC'est fait ! La ressource \u00ab {resource} \u00bb ({id}) a \u00e9t\u00e9 mise \u00e0 jour avec succ\u00e8s par {full_name} ({username}) :\r\n\r\n{ckan_url}\r\n\r\nQue faire de plus ?\r\n\r\n- Am\u00e9liorer les metadonn\u00e9es : https://datasud.readthedocs.io/fr/latest/contributeurs.html \r\n- D\u00e9clarer des r\u00e9utilisations : https://trouver.datasud.fr/showcase\r\n- Rejoindre la communaut\u00e9 : https://datasud.slack.com\r\n\r\nMerci,\r\nL'\u00e9quipe DataSud\r\n\r\n----- \\o/ --------\r\nCeci est un message automatique. Merci de ne pas y r\u00e9pondre.\r\nPour contacter l'\u00e9quipe Datasud, \u00e9crivez-nous \u00e0 admin@datasud.fr"
+	}
+}]

@@ -1,0 +1,145 @@
+[
+{
+	"model": "idgo_admin.license",
+	"pk": "cc-by",
+	"fields":
+	{
+		"title": "Creative Commons (Attribution)",
+		"alternate_titles": "[\"Open Database License (ODbL)\", \"ODBL\"]",
+		"url": "http://www.opendefinition.org/licenses/cc-by",
+		"alternate_urls": "[]",
+		"domain_content": true,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "cc-by-sa",
+	"fields":
+	{
+		"title": "Creative Commons (Attribution Share-Alike)",
+		"alternate_titles": "[\"Creative Commons Attribution Share-Alike\", \"CC-BY-SA\"]",
+		"url": "https://opendefinition.org/licenses/cc-by-sa/",
+		"alternate_urls": "[]",
+		"domain_content": true,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "cc-zero",
+	"fields":
+	{
+		"title": "Creative Commons (CCZero)",
+		"alternate_titles": "[\"Creative Commons CCZero\", \"CCZero\"]",
+		"url": "http://www.opendefinition.org/licenses/cc-zero",
+		"alternate_urls": "[]",
+		"domain_content": true,
+		"domain_data": true,
+		"domain_software": true,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "lov2",
+	"fields":
+	{
+		"title": "Licence Ouverte Version 2.0",
+		"alternate_titles": "[\"License Etalab\", \"Licence Ouverte / Open Licence version 2.0\", \"LO/OL\", \"Licence Ouverte / Open Licence\", \"License Etalab v2\", \"License Etalab v2.0\", \"Licence Ouverte (Etalab)\", \"License Ouverte\", \"Licence Ouverte v2\", \"Licence Ouverte v2.0\", \"Licence Ouverte v2.0 (Etalab)\", \"Licence Ouverte version 2.0\", \"Open Licence v2\", \"Open Licence v2.0\", \"Open Licence version 2.0\", \"Licence Ouverte / Open Licence v2\", \"Licence Ouverte / Open Licence v2.0\", \"Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/licence-ouverte-open-licence\", \"Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf\"]",
+		"url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+		"alternate_urls": "[\"https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf\", \"https://github.com/etalab/Licence-Ouverte/blob/master/LO.md\"]",
+		"domain_content": true,
+		"domain_data": true,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "odc-by",
+	"fields":
+	{
+		"title": "Open Data Commons (Attribution)",
+		"alternate_titles": "[\"Open Data Commons Attribution License\", \"ODC-BY\"]",
+		"url": "http://opendatacommons.org/licenses/by/summary/",
+		"alternate_urls": "[]",
+		"domain_content": false,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "odc-odbl",
+	"fields":
+	{
+		"title": "Open Data Commons (ODbL)",
+		"alternate_titles": "[]",
+		"url": "http://opendatacommons.org/licenses/odbl/summary/",
+		"alternate_urls": "[]",
+		"domain_content": false,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "other-at",
+	"fields":
+	{
+		"title": "Autre Licence (sp\u00e9cifique)",
+		"alternate_titles": "[]",
+		"url": null,
+		"alternate_urls": "[]",
+		"domain_content": true,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+},
+{
+	"model": "idgo_admin.license",
+	"pk": "other-open",
+	"fields":
+	{
+		"title": "Autre Licence (ouverte)",
+		"alternate_titles": "[]",
+		"url": null,
+		"alternate_urls": "[]",
+		"domain_content": true,
+		"domain_data": false,
+		"domain_software": false,
+		"status": "active",
+		"maintainer": "",
+		"od_conformance": "not reviewed",
+		"osd_conformance": "not reviewed"
+	}
+}]

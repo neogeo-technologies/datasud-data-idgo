@@ -1,0 +1,586 @@
+[
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 1,
+	"fields":
+	{
+		"slug": "csv",
+		"description": "CSV",
+		"extension": "csv",
+		"mimetype": "[\"text/csv\"]",
+		"protocol": null,
+		"ckan_format": "CSV",
+		"ckan_view": "recline_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 2,
+	"fields":
+	{
+		"slug": "xls",
+		"description": "XLS",
+		"extension": "xls",
+		"mimetype": "[\"application/vnd.ms-excel\", \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"]",
+		"protocol": null,
+		"ckan_format": "XLS",
+		"ckan_view": "recline_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 3,
+	"fields":
+	{
+		"slug": "html",
+		"description": "HTML",
+		"extension": "html",
+		"mimetype": "[\"text/html\"]",
+		"protocol": null,
+		"ckan_format": "HTML",
+		"ckan_view": "text_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 4,
+	"fields":
+	{
+		"slug": "pdf",
+		"description": "PDF",
+		"extension": "pdf",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "PDF",
+		"ckan_view": "pdf_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 5,
+	"fields":
+	{
+		"slug": "xml",
+		"description": "XML",
+		"extension": "xml",
+		"mimetype": "[\"text/xml\"]",
+		"protocol": null,
+		"ckan_format": "XML",
+		"ckan_view": "text_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 6,
+	"fields":
+	{
+		"slug": "zip",
+		"description": "ZIP",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "ZIP",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 7,
+	"fields":
+	{
+		"slug": "tiff",
+		"description": "TIFF",
+		"extension": "tiff",
+		"mimetype": "[\"image/tiff\"]",
+		"protocol": null,
+		"ckan_format": "TIFF",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 8,
+	"fields":
+	{
+		"slug": "json",
+		"description": "JSON",
+		"extension": "json",
+		"mimetype": "[\"application/json\"]",
+		"protocol": null,
+		"ckan_format": "JSON",
+		"ckan_view": "text_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 9,
+	"fields":
+	{
+		"slug": "wms",
+		"description": "WMS",
+		"extension": "wms",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "WMS",
+		"ckan_view": "geo_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 10,
+	"fields":
+	{
+		"slug": "jpg",
+		"description": "JPG",
+		"extension": "jpg",
+		"mimetype": "[\"application/jpg\"]",
+		"protocol": null,
+		"ckan_format": "JPG",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 11,
+	"fields":
+	{
+		"slug": "wcs",
+		"description": "WCS",
+		"extension": "wcs",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "WCS",
+		"ckan_view": "geo_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 12,
+	"fields":
+	{
+		"slug": "txt",
+		"description": "TXT",
+		"extension": "txt",
+		"mimetype": "[\"text/plain\"]",
+		"protocol": null,
+		"ckan_format": "TXT",
+		"ckan_view": "text_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 13,
+	"fields":
+	{
+		"slug": "kml",
+		"description": "KML",
+		"extension": "kml",
+		"mimetype": "[\"application/vnd.google-earth.kmz\"]",
+		"protocol": null,
+		"ckan_format": "KML",
+		"ckan_view": "text_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 14,
+	"fields":
+	{
+		"slug": "wfs",
+		"description": "WFS",
+		"extension": "wfs",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "WFS",
+		"ckan_view": "geo_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 15,
+	"fields":
+	{
+		"slug": "png",
+		"description": "PNG",
+		"extension": "png",
+		"mimetype": "[\"image/png\"]",
+		"protocol": null,
+		"ckan_format": "PNG",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 16,
+	"fields":
+	{
+		"slug": "geojson",
+		"description": "GeoJSON",
+		"extension": "geojson",
+		"mimetype": "[\"application/json\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "GEOJSON",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 17,
+	"fields":
+	{
+		"slug": "ods",
+		"description": "ODS",
+		"extension": "ods",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "ODS",
+		"ckan_view": "recline_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 21,
+	"fields":
+	{
+		"slug": "gpkg",
+		"description": "GeoPackage GPKG",
+		"extension": "gpkg",
+		"mimetype": null,
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "GPKG",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 22,
+	"fields":
+	{
+		"slug": "doc",
+		"description": "DOC",
+		"extension": "doc",
+		"mimetype": "[\"application/vnd.ms-word\"]",
+		"protocol": null,
+		"ckan_format": "DOC",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 23,
+	"fields":
+	{
+		"slug": "odt",
+		"description": "ODT",
+		"extension": "odt",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "ODT",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 24,
+	"fields":
+	{
+		"slug": "xlxs",
+		"description": "XLSX",
+		"extension": "xlsx",
+		"mimetype": "[\"application/vnd.ms-excel\", \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"]",
+		"protocol": null,
+		"ckan_format": "XLSX",
+		"ckan_view": "recline_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 25,
+	"fields":
+	{
+		"slug": "docx",
+		"description": "DOCX",
+		"extension": "docx",
+		"mimetype": "[\"application/vnd.ms-word\"]",
+		"protocol": null,
+		"ckan_format": "DOCX",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 26,
+	"fields":
+	{
+		"slug": "pbf",
+		"description": "PBF",
+		"extension": "pbf",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "PBF",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 27,
+	"fields":
+	{
+		"slug": "sl3",
+		"description": "SL3",
+		"extension": "sl3",
+		"mimetype": null,
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "SL3",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 28,
+	"fields":
+	{
+		"slug": "gpx",
+		"description": "GPX",
+		"extension": "gpx",
+		"mimetype": null,
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "GPX",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 29,
+	"fields":
+	{
+		"slug": "geotiff",
+		"description": "GEOTIFF",
+		"extension": "geotiff",
+		"mimetype": "[\"image/tiff\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "GEOTIFF",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 30,
+	"fields":
+	{
+		"slug": "gtfs",
+		"description": "GTFS",
+		"extension": "gtfs",
+		"mimetype": null,
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "GTFS",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 31,
+	"fields":
+	{
+		"slug": "shapezip",
+		"description": "ESRI Shapefile (Fichier ZIP)",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "SHP",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 32,
+	"fields":
+	{
+		"slug": "ecw",
+		"description": "ECW",
+		"extension": "ecw",
+		"mimetype": null,
+		"protocol": null,
+		"ckan_format": "ECW",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 34,
+	"fields":
+	{
+		"slug": "mif-mid-zip",
+		"description": "Mapinfo MIF/MID (Fichier ZIP)",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "MIF/MID",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 37,
+	"fields":
+	{
+		"slug": "tab-zip",
+		"description": "Mapinfo TAB (Fichier ZIP)",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "TAB",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 38,
+	"fields":
+	{
+		"slug": "jp2",
+		"description": "JPEG2000",
+		"extension": "jp2",
+		"mimetype": "[\"image/jpeg2000\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "JPEG2000",
+		"ckan_view": null,
+		"is_gis_format": true
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 39,
+	"fields":
+	{
+		"slug": "QML",
+		"description": "QML",
+		"extension": "qml",
+		"mimetype": "[]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "QML",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 40,
+	"fields":
+	{
+		"slug": "LYR",
+		"description": "LYR",
+		"extension": "lyr",
+		"mimetype": "[]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "LYR",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 41,
+	"fields":
+	{
+		"slug": "dbf",
+		"description": "DBF",
+		"extension": "dbf",
+		"mimetype": "[\"application/dbf\"]",
+		"protocol": null,
+		"ckan_format": "DBF",
+		"ckan_view": "recline_view",
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 42,
+	"fields":
+	{
+		"slug": "QLR",
+		"description": "QLR",
+		"extension": "qlr",
+		"mimetype": "[]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "QLR",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 43,
+	"fields":
+	{
+		"slug": "7z",
+		"description": "7Z",
+		"extension": "7z",
+		"mimetype": "[\"application/x-7z-compressed\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "7Z",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 44,
+	"fields":
+	{
+		"slug": "las",
+		"description": "LAS",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "LAS",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+},
+{
+	"model": "idgo_admin.resourceformats",
+	"pk": 45,
+	"fields":
+	{
+		"slug": "3DTiles",
+		"description": "3DTiles",
+		"extension": "zip",
+		"mimetype": "[\"application/zip\"]",
+		"protocol": "WWW:DOWNLOAD-1.0-http--download",
+		"ckan_format": "3DTiles",
+		"ckan_view": null,
+		"is_gis_format": false
+	}
+}]

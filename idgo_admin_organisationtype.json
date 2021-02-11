@@ -1,0 +1,201 @@
+[
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "Association",
+	"fields":
+	{
+		"name": "Association loi 1901"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "chambre-consulaire",
+	"fields":
+	{
+		"name": "Chambre consulaire"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "college",
+	"fields":
+	{
+		"name": "Coll\u00e8ge"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "communaute-agglomeration",
+	"fields":
+	{
+		"name": "Communaut\u00e9 d'agglom\u00e9ration"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "communaute-communes",
+	"fields":
+	{
+		"name": "Communaut\u00e9 de communes"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "commune",
+	"fields":
+	{
+		"name": "Commune"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "conseil-departemental",
+	"fields":
+	{
+		"name": "Conseil d\u00e9partemental"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "conseil-regional",
+	"fields":
+	{
+		"name": "Conseil r\u00e9gional"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "ecole",
+	"fields":
+	{
+		"name": "\u00c9cole"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "entreprise",
+	"fields":
+	{
+		"name": "Entreprise"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "epa",
+	"fields":
+	{
+		"name": "EPA"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "epic",
+	"fields":
+	{
+		"name": "EPIC"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "eps",
+	"fields":
+	{
+		"name": "EPS"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "epst",
+	"fields":
+	{
+		"name": "EPST"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "\u00c9tat",
+	"fields":
+	{
+		"name": "Minist\u00e8re"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "gie",
+	"fields":
+	{
+		"name": "Groupement d'int\u00e9r\u00eat \u00e9conomique"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "gip",
+	"fields":
+	{
+		"name": "Groupement d'int\u00e9r\u00eat public"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "gis",
+	"fields":
+	{
+		"name": "Groupement d'int\u00e9r\u00eat scientifique"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "lycee",
+	"fields":
+	{
+		"name": "Lyc\u00e9e"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "metropole",
+	"fields":
+	{
+		"name": "M\u00e9tropole"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "organisme-recherche",
+	"fields":
+	{
+		"name": "Organisme de recherche"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "service-deconcentre-etat",
+	"fields":
+	{
+		"name": "Service d\u00e9concentr\u00e9 de l'\u00c9tat"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "start-up",
+	"fields":
+	{
+		"name": "Start-up"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "syndicat-mixte",
+	"fields":
+	{
+		"name": "Syndicat mixte"
+	}
+},
+{
+	"model": "idgo_admin.organisationtype",
+	"pk": "universite",
+	"fields":
+	{
+		"name": "Universit\u00e9"
+	}
+}]

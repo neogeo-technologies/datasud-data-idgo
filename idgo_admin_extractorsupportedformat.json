@@ -1,0 +1,212 @@
+[
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geojson",
+	"fields":
+	{
+		"description": "GeoJSON",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "GeoJSON"
+			}
+		},
+		"type": "vector"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geopackage",
+	"fields":
+	{
+		"description": "GeoPackage",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "GPKG"
+			}
+		},
+		"type": "vector"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geotiff_jpeg80",
+	"fields":
+	{
+		"description": "GeoTIFF (JPEG 80)",
+		"details":
+		{
+			"dst_format":
+			{
+				"options":
+				{
+					"BLOCKXSIZE": 256,
+					"TILED": "YES",
+					"COMPRESS": "JPEG",
+					"JPEG_QUALITY": 80,
+					"BLOCKYSIZE": 256
+				},
+				"gdal_driver": "GTiff"
+			},
+			"img_overview_min_size": 1024,
+			"img_overviewed": true,
+			"img_resampling_method": "bilinear"
+		},
+		"type": "raster"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geotiff_jpeg95",
+	"fields":
+	{
+		"description": "GeoTIFF (JPEG 95)",
+		"details":
+		{
+			"dst_format":
+			{
+				"options":
+				{
+					"BLOCKXSIZE": 256,
+					"TILED": "YES",
+					"COMPRESS": "JPEG",
+					"JPEG_QUALITY": 95,
+					"BLOCKYSIZE": 256
+				},
+				"gdal_driver": "GTiff"
+			},
+			"img_overview_min_size": 1024,
+			"img_overviewed": true,
+			"img_resampling_method": "bilinear"
+		},
+		"type": "raster"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geotiff_lzw",
+	"fields":
+	{
+		"description": "GeoTIFF (LZW)",
+		"details":
+		{
+			"dst_format":
+			{
+				"options":
+				{
+					"BLOCKXSIZE": 512,
+					"TILED": "YES",
+					"COMPRESS": "LZW",
+					"TFW": "YES",
+					"BLOCKYSIZE": 512
+				},
+				"gdal_driver": "GTiff"
+			},
+			"img_overview_min_size": 1024,
+			"img_overviewed": true,
+			"img_resampling_method": "bilinear"
+		},
+		"type": "raster"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "geotiff_no_compressed",
+	"fields":
+	{
+		"description": "GeoTIFF (Sans compression)",
+		"details":
+		{
+			"dst_format":
+			{
+				"options":
+				{
+					"BLOCKXSIZE": 512,
+					"TILED": "YES",
+					"BLOCKYSIZE": 512,
+					"TFW": "YES"
+				},
+				"gdal_driver": "GTiff"
+			},
+			"img_overview_min_size": 1024,
+			"img_overviewed": true,
+			"img_resampling_method": "bilinear"
+		},
+		"type": "raster"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "kml",
+	"fields":
+	{
+		"description": "KML",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "KML"
+			}
+		},
+		"type": "vector"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "mif",
+	"fields":
+	{
+		"description": "MIF/MID",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "MapInfo File",
+				"options":
+				{
+					"FORMAT": "MIF"
+				},
+				"extension": "MIF"
+			}
+		},
+		"type": "vector"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "shapefile",
+	"fields":
+	{
+		"description": "ESRI Shapefile",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "ESRI Shapefile"
+			}
+		},
+		"type": "vector"
+	}
+},
+{
+	"model": "idgo_admin.extractorsupportedformat",
+	"pk": "tab",
+	"fields":
+	{
+		"description": "TAB",
+		"details":
+		{
+			"dst_format":
+			{
+				"gdal_driver": "MapInfo File",
+				"options":
+				{},
+				"extension": "TAB"
+			}
+		},
+		"type": "vector"
+	}
+}]

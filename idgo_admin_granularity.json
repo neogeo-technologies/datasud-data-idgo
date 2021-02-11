@@ -1,0 +1,73 @@
+[
+{
+	"model": "idgo_admin.granularity",
+	"pk": "commune",
+	"fields":
+	{
+		"name": "Commune",
+		"order": 4
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "departement",
+	"fields":
+	{
+		"name": "D\u00e9partement",
+		"order": 2
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "epci",
+	"fields":
+	{
+		"name": "Intercommunalit\u00e9 (EPCI)",
+		"order": 3
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "indefinie",
+	"fields":
+	{
+		"name": "Ind\u00e9finie",
+		"order": 0
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "iris",
+	"fields":
+	{
+		"name": "IRIS (quartiers INSEE)",
+		"order": 6
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "parcelle-cadastrale",
+	"fields":
+	{
+		"name": "Parcelle cadastrale",
+		"order": 5
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "poi",
+	"fields":
+	{
+		"name": "Point d'inter\u00eat (POI)",
+		"order": 7
+	}
+},
+{
+	"model": "idgo_admin.granularity",
+	"pk": "region",
+	"fields":
+	{
+		"name": "R\u00e9gion",
+		"order": 8
+	}
+}]
