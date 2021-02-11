@@ -1,0 +1,11 @@
+[
+{
+	"model": "idgo_admin.gdpr",
+	"pk": 1,
+	"fields":
+	{
+		"title": "Conditions g\u00e9n\u00e9rales d'utilisation de DataSud 1.1",
+		"description": "DataSud s'engage en faveur de la protection de vos donn\u00e9es et du respect de votre vie priv\u00e9e.\r\n\r\nDeux types de donn\u00e9es \u00e0 caract\u00e8re personnel  sont concern\u00e9es et d\u00e9crites dans nos conditions d'utilisations et mentions l\u00e9gales :\r\n\r\n1) Les donn\u00e9es \u00e0 caract\u00e8re personnel de l\u2019Utilisateur li\u00e9es \u00e0 son inscription et son utilisation de la plateforme. Seules les donn\u00e9es strictement n\u00e9cessaires au fonctionnement et \u00e0 l'am\u00e9lioration des services DataSud sont collect\u00e9es.\r\n\r\n2) Les donn\u00e9es \u00e0 caract\u00e8re personnel \u00e9ventuellement pr\u00e9sentes dans les jeux de donn\u00e9es publi\u00e9s par l\u2019Utilisateur. L\u2019Utilisateur ne peut les diffuser que dans le respect de conditions pr\u00e9cis\u00e9es dans nos documents contractuels.\r\n\r\nEn s'inscrivant sur la plateforme DataSud l'Utilisateur accepte les [conditions g\u00e9n\u00e9rales d'utilisation version 1.1](https://www.datasud.fr/conditions-dutilisation/) ainsi que les [mentions l\u00e9gales](https://www.datasud.fr/mentions-legales/) d\u00e9crivant ses droits et obligations notamment en mati\u00e8re de [donn\u00e9es \u00e0 caract\u00e8re personnelles.](https://www.datasud.fr/donnees-a-caractere-personnel)",
+		"issue_date": "2019-05-07T10:00:00Z"
+	}
+}]
